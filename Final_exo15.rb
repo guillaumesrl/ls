@@ -17,4 +17,4 @@ input = gets.chomp.downcase
 player.merge!(character_classes[input.to_sym])
 
 puts 'Your character stats:'
-puts player
+puts "test git"
