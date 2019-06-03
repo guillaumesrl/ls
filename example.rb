@@ -1,10 +1,8 @@
-# Given
+a = 7
+array = [1, 2, 3]
 
-family = {  uncles: ["bob", "joe", "steve"],
-  sisters: ["jane", "jill", "beth"],
-  brothers: ["frank","rob","david"],
-  aunts: ["mary","sally","susan"]
-}
+array.each do |a|
+ puts a += 1
+end
 
-direct_family = family.select { |k,v| k == sisters || brothers }
-puts direct_family
+puts a
